@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Project</title>
+
+<!-- Begin Meta -->
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0">  
+<!-- End Meta -->    
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- End Bootstrap -->    
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- End Javascript -->    
+    
+<!-- Begin Styles -->
+<link rel="stylesheet" href="style-template.css" type="text/css" media="all" />
+<link rel="stylesheet" href="flexslider.css" type="text/css" />
+<!-- End Styles -->
+    
+<!-- Begin Fonts -->    
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<!-- End Fonts -->
+    
+<!-- Begin Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="scripts/jquery.flexslider.js"></script>
+<!-- End Scripts -->
+    
+<!-- Begin Flex Slider -->
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+$('.flexslider').flexslider();
+});
+</script>
+<!-- End Flex Slider -->    
+   
+<!-- Begin Toggle Menu -->     
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() { // start function
+$("#toggle").click(function() { // toggle
+$("#navigation").toggle(); // display and close navigation
+});
+});
+</script>   
+<!-- End Toggle Menu -->
+    
+</head>
+
+<body>
+    
+<!-- Begin Header -->
+<div id="header">
+<h1 id="logo"><a href="index.html">Project</a></h1>
+<img id="toggle" src="img/img-toggle.png" width="60" height="60" alt="Toggle Menu">
+</div>
+<!-- End Header -->
+
+
+  
+
+
+<!-- Begin Toggle Menu -->  
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() { // start function
+        $('#toggle').hide();  
+});
+</script>   
+<!-- End Toggle Menu -->
+  
+
+     
+<!-- Begin Content -->
+<div id="content">
+<!-- Begin Flex Slider -->
+<div class="flexslider">
+<ul class="slides">
+<li><img src="img/img-slide-01.png" alt="Image One" /></li>
+<li><img src="img/img-slide-02.png" alt="Image Two" /></li>
+</ul>
+</div>
+<!-- End Flex Slider -->
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-12"><a href="features.html" class="btn btn-default btn-lg btn-block" role="button">Start Projecting</a></div>
+</div>
+</div>
+
+</div>
+<!-- End Content -->
+
+<!-- Begin Footer -->
+<div id="footer">
+<p>&copy;2017 <a href="http://www.hsuanyubellachen.com/">Bella Chen</a>. All rights reserved.</p>
+</div>
+<!-- End Footer -->
+    
+</body>
+    
+</html>
+    
