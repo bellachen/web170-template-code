@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 <head>
@@ -18,12 +17,13 @@
 <!-- End Javascript -->    
     
 <!-- Begin Styles -->
-<link rel="stylesheet" href="style-template.css" type="text/css" media="all" />
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="flexslider.css" type="text/css" />
 <!-- End Styles -->
     
 <!-- Begin Fonts -->    
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
 <!-- End Fonts -->
     
 <!-- Begin Scripts -->
@@ -39,43 +39,10 @@ $('.flexslider').flexslider();
 </script>
 <!-- End Flex Slider -->    
    
-<!-- Begin Toggle Menu -->     
-<script type="text/javascript" charset="utf-8">
-$(window).load(function() { // start function
-$("#toggle").click(function() { // toggle
-$("#navigation").toggle(); // display and close navigation
-});
-});
-</script>   
-<!-- End Toggle Menu -->
-    
 </head>
 
 <body>
-    
-<!-- Begin Header -->
-<div id="header">
-<h1 id="logo"><a href="index.html">Project</a></h1>
-<img id="toggle" src="img/img-toggle.png" width="60" height="60" alt="Toggle Menu">
-</div>
-<!-- End Header -->
-
-
-  
-
-
-<!-- Begin Toggle Menu -->  
-<script type="text/javascript" charset="utf-8">
-$(window).load(function() { // start function
-        $('#toggle').hide();  
-});
-</script>   
-<!-- End Toggle Menu -->
-  
-
-     
-<!-- Begin Content -->
-<div id="content">
+ 
 <!-- Begin Flex Slider -->
 <div class="flexslider">
 <ul class="slides">
@@ -85,22 +52,37 @@ $(window).load(function() { // start function
 </div>
 <!-- End Flex Slider -->
 
-<div class="container-fluid">
-<div class="row">
-  <div class="col-md-12"><a href="features.html" class="btn btn-default btn-lg btn-block" role="button">Start Projecting</a></div>
+<div class="col-sm-12 col-md-12" id="mobile-slide">
+<img src="img/img-slide-01.png" class="img-responsive" alt="Image One" id="top"/>
+</div>    
+    
+<div class="col-sm-12 col-md-12">
+<div class="row equal vertical-align">
+
+<div class="col-xs-12 col-sm-4 col-md-4 text-center" id="other-front">
+<div id="header">
+<h1 id="logo">Project</h1>
+</div>
+</div>    
+    
+<div class="col-xs-12 col-sm-8 col-md-8 text-center" id="package-front">
+<a href="features.html">Start Projecting</a> 
+</div>  
+    
 </div>
 </div>
 
-</div>
-<!-- End Content -->
+<div class="col-sm-12 col-md-12" id="mobile-slide">
+<img src="img/img-slide-02.png" class="img-responsive" alt="Image Two" />
+</div>     
 
 <!-- Begin Footer -->
 <div id="footer">
 <p>&copy;2017 <a href="http://www.hsuanyubellachen.com/">Bella Chen</a>. All rights reserved.</p>
 </div>
-<!-- End Footer -->
+<!-- End Footer -->       
     
 </body>
     
 </html>
-    
+

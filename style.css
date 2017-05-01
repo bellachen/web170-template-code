@@ -1,0 +1,540 @@
+* { 
+margin: 0; 
+padding: 0; 
+}
+
+html {
+background-color: #ffffff;   
+}
+
+body {
+font-family: 'Raleway', sans-serif;
+color: #000000;
+font-size: 1.5em;  
+}
+
+p {
+padding-left: 20px;
+padding-right: 20px;
+margin: 0 0 0 0;
+}
+
+h2 {
+padding-left:20px;
+padding-right:20px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h3 {
+padding-top: 0px;
+padding-bottom: 0px; 
+margin-top: 0;
+margin-bottom: 10px;
+font-family: 'Dawning of a New Day', cursive;
+font-size: 3em;
+}
+
+a {
+color: #000000;
+}
+
+a:hover {
+color: hotpink;
+text-decoration: none;
+}
+
+#header {
+max-width: 1080px; 
+margin: 0 auto;
+padding: 5px 0 5px 0; 
+text-align: center;
+}
+
+#header a {
+color: hotpink; 
+text-decoration: none; /* remove undeline */
+font-size: 2.25em; 
+padding: 5px 15px;
+}
+
+#header a:hover {
+border: 1px solid hotpink;
+}
+
+#toggle {
+display: none;
+}
+
+/*Front Page - Project */
+#other-front {
+background-color: hotpink;
+color: #ffffff;
+padding: 0 0 0 0;
+}
+
+#other-front #header h1#logo {
+font-size: 4em; 
+padding: 0 15px;
+margin-top: 10px;
+color: #ffffff;    
+}
+
+#package-front {
+background-color: darkgray;
+padding: 15px 20px 15px 30px;     
+}
+
+#package-front:hover {
+background-color: gray;     
+}
+
+#package-front a {
+color: #ffffff;
+font-size: 3em;
+display: block;
+font-family: 'Dawning of a New Day', cursive;
+}
+
+#mobile-slide {
+display: none;     
+}
+/*End Front Page - Project */
+
+#navigation {
+max-width: 1080px; 
+margin: 0 auto;
+padding: 0 0 20px 0;
+font-size: 1.5em;   
+}
+
+#navigation ul {
+overflow: hidden;
+padding: 10px 0;
+margin: 0; 
+text-align: center;
+}
+
+#navigation ul li {
+list-style: none;
+display: inline;
+margin: 0 20px;
+}
+
+#navigation ul li a {
+color: #000; 
+text-decoration: none; 
+font-size: 1.5em;    
+}
+
+#navigation ul li a:hover {
+color: hotpink;
+}
+
+#navigation ul li.current a {
+color: hotpink;
+}
+
+#content {
+max-width: 1080px; 
+background-color:#FFFFFF;
+overflow: hidden; /* prevents parent element with floated child elements from collapsing */
+margin: 0 auto;
+padding: 0 0;
+}
+
+#sidebar {
+padding: 15px 25px 25px 15px;
+color: #ffffff;
+background-color: hotpink;
+}
+
+#footer {
+max-width: 1080px; 
+margin: 0 auto;
+padding: 15px 0;
+clear: both;
+color: #000000;
+text-align: center;   
+}
+
+#icon {
+padding-bottom: 15px;
+padding-top: 15px;    
+}
+
+input[type=radio] {
+margin-top: 0 !important;  
+}
+
+input[type=submit].btn-block {
+margin-top: 30px;    
+margin-bottom: 20px;
+}   
+
+#package {
+background-color: hotpink;
+color: #ffffff;
+padding: 30px 20px 30px 30px;     
+}
+
+#package h2 { 
+padding-top: 0px;
+padding-bottom: 0px; 
+margin-top: 0;
+margin-bottom: 10px;
+font-family: 'Dawning of a New Day', cursive;
+font-size: 3em;
+text-align: center;    
+}
+
+/*Learn about other Packages*/
+#other {
+background-color: darkgray;
+padding: 10px 20px 10px 20px;
+}
+
+#other a {
+color: #ffffff;
+text-decoration: none; 
+font-size: 2em !important;
+font-family: 'Dawning of a New Day', cursive;   
+}
+
+.vertical-align {
+display: flex;
+flex-direction: row;
+}
+
+.vertical-align > [class^="col-md-4"],
+.vertical-align > [class*=" col-md-4"] {
+display: flex;
+align-items: center;     /* Align the flex-items vertically */
+justify-content: center; /* Align inner flex-items horizontally within the column */
+}
+
+.vertical-align p {
+text-align: center;
+}
+
+.equal {
+display: flex;
+flex-wrap: wrap;
+}
+
+/*End Learn about other Packages*/
+
+/*Package Gateway*/
+.col-md-3 {
+padding-left: 25px;
+padding-right: 10px;
+}
+/*End Package Gateway*/
+
+/*Package Options*/
+#other1 {
+background-color: lightgray;
+color: #ffffff;
+height: 100%;    
+}
+
+#other2 {
+background-color: darkgray;
+color: #ffffff;
+height: 100%;    
+}
+
+#other3 {
+background-color: gray;
+color: #ffffff;
+height: 100%;  
+}
+
+#other4 {
+background-color: dimgray;
+color: #ffffff;
+height: 100%;      
+}
+
+#other-all .row {
+height: 33.333%;
+}
+
+#other-all .row .col-sm-12 a h3 {
+padding-top: 10%; 
+padding-bottom: 10%;     
+margin: 0 0 0 0;
+}
+
+#other-all a {
+color: #ffffff;
+text-decoration: none;     
+}
+/*End Package Options*/
+
+/*Features, Space, Budget*/
+.col-sm-12 .row .col-sm-4 p {
+padding: 5px 15px 0 15px;
+}
+/*End Features, Space, Budget*/
+
+/*Flexslider*/
+.flex-prev,
+.flex-next {
+font-size: 0;
+}
+
+.flex-direction-nav .flex-prev {
+left: 5% !important;
+}
+    
+.flex-direction-nav .flex-next {
+right: 5% !important;
+}
+/*End Flexslider*/
+
+/* Desktop Screen Set to 992px or Below */
+@media screen and (max-width: 992px) {
+    #sidebar {
+    padding: 15px 25px 25px 25px;
+    margin-bottom: 15px;
+    }
+    
+    #other .row {
+    height: auto;
+    }
+
+    #other .row .col-sm-12 a h3 {
+    padding-top: 2%;
+    padding-bottom: 2%;    
+    margin: 0 0 0 0;
+    }
+    
+    #other-all .row .col-sm-12 a h3 {
+    padding-top: 13%; 
+    padding-bottom: 13%;     
+    }
+    
+    #package {
+    padding: 25px 30px 25px 30px;     
+    }
+    
+    #navigation {
+    padding: 0 0 10px 0;
+    font-size: 1.3em;   
+    }
+    
+    .flexslider .slides img {
+    width: 80% !important;
+    display: block;
+    margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #other1 {
+    padding-top: 25px;    
+    }
+
+    #other2 {
+    padding-top: 25px;
+    }
+
+    #other3 {
+    padding-top: 25px;
+    }
+
+    #other4 {
+    padding-top: 25px;    
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #navigation {
+    display: block !important; /* fix problem of disappearing menu when window expands */
+    }
+}
+
+/* Tablet Screen Set to 768px or Below  */
+@media screen and (max-width: 768px) {
+    #header {
+    padding: 0 10px 5px 10px;   
+    overflow: hidden; 
+    }
+    
+    #logo {
+    float: left; 
+    }
+    
+    /*Front Page - Project */
+    #other-front {
+    background-color: hotpink;
+    color: #ffffff;
+    padding: 0 0 0 0;
+    }
+
+    #other-front #header h1#logo {
+    font-size: 3em;
+    padding: 0 15px;
+    }
+
+    #package-front {
+    padding: 10px 30px 10px 30px;  
+    }
+
+    #package-front:hover {
+    background-color: gray;     
+    }
+
+    #package-front a {
+    font-size: 2em;
+    }
+    
+    #mobile-slide {
+    display: block; 
+    margin-top: 4%;
+    }
+    
+    #mobile-slide img#top{
+    margin-bottom: 10px;
+    }
+    
+    .flexslider {
+    display: none;     
+    }
+    /*End Front Page - Project */
+
+    .col-sm-12 h2 {
+    text-align: left; 
+    } 
+    
+    h3 {
+    padding-top: 0;
+    padding-bottom: 0;    
+    }
+    
+    #package h3 {
+    padding-top: 0;
+    padding-bottom: 0;    
+    }
+    
+    #header a {
+    padding: 5px 15px;
+    font-size: 1.5em;
+    }
+    
+    #header a:hover {
+    border: 1px solid hotpink;
+    padding: 5px 14.2px;
+    }
+    
+    #sidebar {
+    padding: 10px 20px 25px 25px;  
+    }
+    
+    #footer {
+    margin-top: 0;
+    padding: 10px 0;
+    }
+    
+    #other-all .row .col-sm-12 a h3 {
+    padding-top: 4%; 
+    padding-bottom: 5%;     
+    margin: 0 0 0 0;
+    }
+    
+    #navigation {
+    display: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    #toggle {
+    display: block; 
+    float: right;
+    margin-top: 18px;
+    }
+
+    #navigation ul {
+    float: none;
+    margin: 0;
+    padding: 0 0;
+    }
+    
+    #navigation ul li {
+    float: none;
+    margin: 0;    
+    }
+
+    #navigation ul li a {
+    display: block;
+    margin: 10px 0;
+    background-color: white;
+    color: hotpink;  
+    border: 1px solid hotpink;
+    }
+    
+    #navigation ul li a:hover {
+    background-color: hotpink;
+    color: white;    
+    }
+    
+    #navigation ul li.current a {
+    background-color: hotpink;
+    color: white;   
+    }
+
+    .row.reorder-sm {
+    transform: rotate(180deg);
+    direction: rtl; /* Fix the horizontal alignment */
+    }
+
+    .row.reorder-sm > [class*="col-"] {
+    transform: rotate(-180deg);
+    direction: ltr; /* Fix the horizontal alignment */
+    }
+    
+    .flexslider .slides img {
+    width: 90% !important;
+    display: block;
+    margin: 0 auto;
+    }
+    
+    .flex-control-nav {
+    bottom: 1px !important;
+    }
+
+/* Mobile Screen Set to 576px or Below  */
+@media screen and (max-width: 576px) {
+    #other {
+    padding: 10px 20px 10px 20px;
+    }
+
+    #other a {
+    font-size: 0.8em !important;
+    }
+    
+    #other1 {
+    padding-top: 0;    
+    }
+
+    #other2 {
+    padding-top: 0;
+    }
+
+    #other3 {
+    padding-top: 0;
+    }
+
+    #other4 {
+    padding-top: 0;    
+    }
+    
+    #icon {
+    padding-top: 45px;
+    }
+    
+    #sidebar {
+    margin-bottom: 0;    
+    }
+}
